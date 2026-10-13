@@ -4,25 +4,44 @@
     <meta charset="UTF-8">
     <title>hngrlee</title>
     <style>
-    body{background-color: white;
-      background-size: auto;}
-    h1{color: black;
-       font-size: 45px;
-       font-weight: bold;
-       margin-left: 30px;}
-      img.center {
-        display: block;
-        margin: 0 auto;}
+    body {
+      background-color: white;
+      background-size: auto;
+    }
+    h1 {
+      color: black;
+      font-size: 45px;
+      font-weight: bold;
+      margin-left: 30px;
+    }
+    .profile-img {
+      display: block;
+      margin: 0 auto;
+    }
+    .image-gallery {
+      display: flex;       
+      gap: 15px;            
+      margin-left: 30px;  
+    }
     </style>
   </head>
   <body>
-    <a herf=".html">
-      <img src="profile.png"alt="내 프로필" width="350" style="border-radius: 50%;">
+    <img src="profile.png" alt="내 프로필" width="350" class="profile-img" style="border-radius: 50%;">
+    
     <h1>알려드릴게욧<br>
       흥이<br>
       에대해<br>
       나에대해</h1>
-      <a herf="who.html">
+    <div class="image-gallery">
+      <a href="who.html">
         <img src="who.jpg" alt="누구?" width="200" style="border-radius: 50%;">
+      </a>
+      <a href="like.html">
+        <img src="like.png" alt="장르" width="200" style="border-radius: 50%;">
+      </a>
+      <a href="death.html">
+        <img src="death.jpg" alt="꿱" width="200" style="border-radius: 50%;">
+      </a>
+    </div>
   </body>
 </html>
