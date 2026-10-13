@@ -1,20 +1,22 @@
 <!DOCTYPE html>
-
 <html>
-<meta charset="UTF-8">
-<head>
-  <title>hngrlee</title>
-  <style>
-  
-  </style>
-</head>
-<body>
-  
-  
-  <h1>
-    알려드릴게욧
-흥얼이/흥이에대해
-나에대해
-  </h1>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <title>hngrlee</title>
+    <style>
+    body{background-image: url('.png');
+      background-size: auto;}
+    h1{color: black;
+       font-size: 15px;
+       text align: left;}
+    </style>
+  </head>
+  <body>
+    <a herf=".html">
+      <img src="profile.png"alt="내 프로필" width="150" style="border-radius: 50%;">
+    <h1>알려드릴게욧<br>
+      흥이<br>
+      에대해<br>
+      나에대해</h1>
+  </body>
 </html>
