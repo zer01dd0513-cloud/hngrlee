@@ -5,18 +5,16 @@
 <head>
   <title>hngrlee</title>
   <style>
-  .floating-btn{
-   position: relative;
-   padding-bottom: 56.25%}
-   
+  
   </style>
 </head>
 <body>
-  <a href="1.html" class="floating-img-btn">
-    <img src="home-button.jpg" width="60">
-  </a>
+  
+  
   <h1>
-    Hello, World!
+    알려드릴게욧
+흥얼이/흥이에대해
+나에대해
   </h1>
 </body>
 </html>
