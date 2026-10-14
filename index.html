@@ -86,7 +86,7 @@
     </style>
   </head>
   <body>
-    <img src="profile.png" alt="내 프로필" width="350" class="profile-img" style="border-radius: 50%;">
+    <img src="profile.png" alt="내 프로필" width="350" class="profile-img" style="border-radius: 50%;" cursor: pointer;" onclick="playMusic()">
     <h1>알려드릴게욧<br>
       흥이<br>
       에대해<br>
@@ -102,5 +102,11 @@
         <img src="death.jpg" alt="꿱" width="200" style="border-radius: 50%;">
       </a>
     </div>
+    <audio id="myMusic" src="Night to howl!.mp3" loop></audio>
+  <script>
+    const music = document.getElementById('myMusic');
+    function playMusic() {
+      music.play(); }
+  </script>
   </body>
 </html>
